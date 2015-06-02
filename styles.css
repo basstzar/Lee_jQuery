@@ -1,0 +1,39 @@
+body{
+  font: 98%/1.2em "Helvetica", "Arial", sans-serif;
+
+}
+#wrapper{
+  position: relative;
+}
+#thumbnails{
+  width: 100px;
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.thumbs {
+  margin-top: 20px
+}
+
+figure{
+  width: 400px;
+  height: 400px;
+  border: 5px solid #ccc;
+  position: absolute;
+  top: 35px;
+  left: 200px;
+}
+figcaption {
+  border-top: 3px solid #ccc;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-shadow: 1px 1px green;
+  padding-top: 2px;
+}
